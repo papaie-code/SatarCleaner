@@ -3,6 +3,16 @@ A cleaner that help you to delete temporary files and other cool thing
 -------------------------------------------------
 
 
+--------------------------------------------------
+
+
+Changelog V4
+1-add some recovery module if does not exist it will download from Mediafire
+
+
+-------------------------------------------------
+
+
 Changelog V3
 1-Reorganizes option.
 2-Corect bugs.
@@ -33,7 +43,6 @@ Changelog Realease
 ---------------------------------------------------
 
 
-Thats all the corection please go see the github
-
+Thats all the corection please go see my GitHub papaie-code
 
 Get all the update on my channel to keep clean you're pc
