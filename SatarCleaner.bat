@@ -1,6 +1,11 @@
 @echo off
 title SatarCleaner
-set error=The module doesn't exist please reinstall the latest update.
+set error=The module you try run does not exist we will try to repair
+set m1=Menu1.bat
+set m2=Menu2.bat
+set m3=Menu3.bat
+set m4=Menu4.bat
+
 
 
 
@@ -150,6 +155,10 @@ exit
 ) else (
 cls
     echo %error%
+    echo trying to repair
+curl -o %m1% https://download1590.mediafire.com/5zl17x5nrnmgsgaldPp73Yd6HwPMHwXgX8SqWWBB9HYD5eCTcQn5UdMdWnxn7tagqYAULSC6evD85-O7AvIJzRdlJQ/yuwf8g7slp9gh95/Menu1.bat
+
+echo now retry
  pause
 cls
 goto color
@@ -163,7 +172,15 @@ start Menu2.bat
 exit
 ) else (
 cls
-    echo %error%
+echo %error%
+    echo trying to repair
+curl -o %m2% https://download843.mediafire.com/ana9qkb5bswgVSRZxwixGHU4CmjhDpE6GRZ_BoXmEmmzPQC7S7dbYO-kjRVZNFfGb5WWTCqFw9QIYKOv6O2IjBTFmw/lz773mef0vmjxx9/Menu2.bat
+
+
+echo now retry
+pause
+
+
  pause
 cls
 goto color
@@ -177,6 +194,10 @@ exit
 ) else (
 cls
     echo %error%
+echo trying to repair
+curl -o %m3% https://download1078.mediafire.com/mvzoelfqsb6gf8n66KyzTAGlnyS1yNGTkQswK2EC7VLjDkn3_9U73j63eb1WOFVZmEUU8PAaPYEmPiwB7P0huqa4Ng/4th708ewxlx64ra/Menu3.bat
+
+echo now retry
  pause
 cls
 goto color
@@ -190,6 +211,9 @@ exit
 ) else (
 cls
     echo %error%
+echo trying to repair
+curl -o %m4% https://download1078.mediafire.com/9kdetuxsmcfgzP0XjOpwJVl8xd6UuzCyY1R3sEtMx0g_ihULJ9iWLGs37-zOpSBzgaT2xsJL_-t2WTMFp3zaxrkDlg/hjw54zskk0k3sff/Menu4.bat
+echo now retry
  pause
 cls
 goto color
